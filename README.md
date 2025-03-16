@@ -4,7 +4,7 @@
 ## Prerequisites
 
 - Node.js (v16 or higher recommended)
-- pnpm package manager (v9.10.0 or compatible)
+- pnpm package manager (v10.2.0 or compatible)
 
 ## Installation
 
