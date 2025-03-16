@@ -2,7 +2,7 @@ import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mc
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const base_url = "https://wallet-analyzer-lovat.vercel.app";
+const base_url = "http://localhost:3001";
 
 // Create an MCP server
 const server = new McpServer({
@@ -63,7 +63,7 @@ server.tool(
           .default({}),
         
         sort: z.record(z.any())
-          .describe("Sort by usd or pnl")
+          .describe("Sort elements by either usd or pnl in ascending or descending order")
           .default({})
       }) },
     async ({ params }) => {
