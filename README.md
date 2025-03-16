@@ -50,7 +50,7 @@ If you have `ts-node`:
 ```json
 {
   "mcpServers": {
-    "solana-dev": {
+    "solana-wallet-analyzer-mcp": {
       "command": "ts-node",
       "args": ["<full-path-to-repo>/index.ts"]
     }
@@ -63,7 +63,7 @@ If you don't have `ts-node` installed globally:
 ```json
 {
   "mcpServers": {
-    "solana-dev": {
+    "solana-wallet-analyzer-mcp": {
       "command": "node",
       "args": ["<full-path-to-repo>/dist/index.js"]
     }
