@@ -12,7 +12,7 @@ Clone this repository and install dependencies:
 
 ```bash
 git clone git@github.com:dgharsallah/solana-wallet-analyzer-mcp.git
-cd solana-wallet-analyzer
+cd solana-wallet-analyzer-mcp
 pnpm install
 ```
 
