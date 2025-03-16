@@ -2,7 +2,7 @@ import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mc
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const base_url = "http://localhost:3001";
+const base_url = "https://wallet-analyzer-lovat.vercel.app";
 
 // Create an MCP server
 const server = new McpServer({
